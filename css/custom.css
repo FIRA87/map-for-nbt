@@ -1,0 +1,73 @@
+body{
+    background:#EFEFEF;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 500px;
+    text-align: center;
+    display: table;
+    margin: 20px auto;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#region_list{
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    margin: 20px auto;
+    display: table;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#map{
+    width:100%;
+    margin: 0;
+}
+#map svg{
+    width: 100% !important;
+    height: auto !important;
+}
+#map svg:hover{
+    cursor: pointer;
+}
+.content{
+    width: 680px;
+    float: left;
+    padding: 0 40px 0 40px;
+    display: none;
+    font-size: 14px;
+}
+.mapwrapper{
+    position: relative;
+}
+.point {
+    display: none;
+    margin: 20px auto;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    height: 12px;
+    padding: 10px 15px;
+    background: #fff;
+    background: rgba(0, 0, 0, 0.61);
+    font: normal 10px/100% Arial, Helvetica, sans-serif;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+}
+.regionBlk{
+    padding: 0 0 40px 0;
+}
+.regionData{
+    margin-bottom: 30px;
+}
+.regionData a{
+    display: block;
+    margin: 3px 0;
+}
